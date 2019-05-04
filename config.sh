@@ -2,7 +2,7 @@
 
 #Installing required packages
 apt-get update
-apt-get install -y iputils-ping wget locate vim git tree r-base-core python3-tk
+apt-get install -y iputils-ping wget nano locate vim git tree r-base-core python3-tk
 
 #Download Installation Files
 cd ~/
