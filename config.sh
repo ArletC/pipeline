@@ -12,15 +12,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 #Install Anaconda
 bash Anaconda3-5.3.1-Linux-x86_64.sh
 echo ". /root/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
+cd ~/
+echo "bash pipeline/stacks.sh"
 exec bash
 
-#Install and configure Stacks_2.3d
-conda create --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults --name stacks_2.3d stacks=2.3d
-#source activate stacks_2.3d
-conda activate stacks_2.3d
-conda install stacks
-conda install -c r r 
-conda install -c r r-ggplot2
-conda activate stacks_2.3d
-ln -s /root/anaconda3/envs/stacks_2.3.d/lib/libreadline.so.7.0 /root/anaconda3/envs/stacks_2.3.d/lib/libreadline.so.6
-bash /root/Bafstu/Start_IBEDs_STACK_pipeline.sh
