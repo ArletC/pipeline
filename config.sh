@@ -11,6 +11,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 
 #Install Anaconda
 bash Anaconda3-5.3.1-Linux-x86_64.sh
+echo "conda=/root/anaconda3/etc/profile.d/conda.sh" >> /root/.bashrc
 echo ". /root/anaconda3/etc/profile.d/conda.sh" >> ~/.bashrc
 cd ~/
 echo "bash pipeline/stacks.sh"
