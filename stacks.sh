@@ -8,6 +8,6 @@
 /root/anaconda3/bin/conda install -c r r 
 /root/anaconda3/bin/conda install -c r r-ggplot2
 /root/anaconda3/bin/conda activate stacks_2.3d
-ln -s /root/anaconda3/envs/stacks_2.3.d/lib/libreadline.so.7.0 /root/anaconda3/envs/stacks_2.3.d/lib/libreadline.so.6
+ln -s /root/anaconda3/envs/stacks_2.3d/lib/libreadline.so.7.0 /root/anaconda3/envs/stacks_2.3d/lib/libreadline.so.6
 cd /root/Bafstu
 bash Start_IBEDs_STACK_pipeline.sh
