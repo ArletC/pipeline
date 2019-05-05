@@ -2,7 +2,7 @@
 
 #Install and configure Stacks_2.3d
 /root/anaconda3/bin/conda create --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults --name stacks_2.3d stacks=2.3d
-#source activate stacks_2.3d
+source activate stacks_2.3d
 /root/anaconda3/bin/conda activate stacks_2.3d
 /root/anaconda3/bin/conda install stacks
 /root/anaconda3/bin/conda install -c r r 
